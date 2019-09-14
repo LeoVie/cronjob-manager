@@ -1,0 +1,24 @@
+{
+  "name": "leovie/cronjob-manager",
+  "config": {
+    "optimize-autoloader": true,
+    "bin-dir": "bin"
+  },
+  "require": {
+    "symfony/console": "^4.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.3",
+    "phpstan/phpstan-shim": "^0.11.15"
+  },
+  "autoload": {
+    "psr-4": {
+      "LeoVie\\CronjobManager\\": "./src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LeoVie\\CronjobManager\\Unittest\\": "./unittests"
+    }
+  }
+}
